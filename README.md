@@ -1,7 +1,7 @@
 # GHOST-DP: Dynamic residue graph learning with hybrid self-distillation for structure-free protein druggability prediction.
 
 <p align="center">
-  <img src="pic/GHOST.png" width="700">
+  <img src="pic/GHOST.png" width="500">
 </p>
 
 
@@ -12,7 +12,11 @@ We propose GHOST-DP, a sequence-based neural framework for protein druggability 
  
 
 The architecture of our framework is:
-![](https://github.com/Wenze18/GHOST-DP/blob/main/pic/Architecture.png)
+<p align="center">
+  <img src="pic/Architecture.png" width="700">
+</p>
+
+
 
 ## Table of Contents
 
