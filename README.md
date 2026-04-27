@@ -1,6 +1,6 @@
 # GHOST-DP: Dynamic residue graph learning with hybrid self-distillation for structure-free protein druggability prediction.
 
-![](https://github.com/Wenze18/GHOST-DP/pic/GHOST.png)
+![](https://github.com/Wenze18/GHOST-DP/blob/main/pic/GHOST.png)
 
 We propose GHOST-DP, a sequence-based neural framework for protein druggability prediction. Starting from residue-level ESM2 embeddings, GHOST-DP constructs a dynamic k-nearest-neighbour residue graph in embedding space, augmented with short-range sequential neighbours, to introduce a structure-inspired local inductive bias without requiring explicit structural input. A hybrid encoder then combines graph-based local propagation with efficient global sequence mixing, allowing the model to learn both local residue-level evidence and long-range protein-level context in a unified architecture. The resulting residue representations are hierarchically compressed into compact protein-level tokens and adaptively processed by Mixture-of-Experts token mixing before classification. To improve robustness under heterogeneous label definitions and external distribution shifts, the model is further optimized with exponential moving average self-distillation and multi-view consistency learning. The seminal innovations of the present work can encapsulate:
 1) We introduce an embedding-space dynamic residue graph for structure-free protein druggability prediction. This graph provides a sequence-derived local topology prior without requiring explicit 3D coordinates, predicted structures or pocket annotations.
@@ -9,7 +9,7 @@ We propose GHOST-DP, a sequence-based neural framework for protein druggability 
  
 
 The architecture of our framework is:
-![](https://github.com/Wenze18/GHOST-DP/pic/Architecture.png)
+![](https://github.com/Wenze18/GHOST-DP/blob/main/pic/Architecture.png)
 
 ## Table of Contents
 
